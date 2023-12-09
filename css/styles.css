@@ -4847,7 +4847,7 @@ fieldset:disabled .btn {
     font-size: 15px;
   }
   .px-4 {
-    padding-top: 2rem;
+    padding-top: 1rem;
     text-align: justify;
   }
   #mainNav .navbar-brand img {
@@ -10490,7 +10490,7 @@ img.bg-img {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgba(0, 0, 0, 1);
 }
 .masthead .masthead-content {
   position: relative;
@@ -10601,6 +10601,7 @@ img.bg-img {
   .social-icons .btn {
     height: 2.5rem;
     width: 2.5rem;
+    flex-direction: column;
   }
   .masthead .masthead-content {
     padding-top: 2rem;
@@ -10691,6 +10692,7 @@ img.bg-img {
   .portfolio-modal .modal-content p.item-intro {
     font-style: italic;
     margin-bottom: 1rem;
+    font-size: 14px;
   }
   .portfolio-modal .modal-content ul.list-inline {
     margin-bottom: 2rem;
@@ -10718,7 +10720,7 @@ img.bg-img {
     font-size: 15px;
   }
   .px-4 {
-    padding-top: 2rem;
+    padding-top: 1rem;
     text-align: justify;
   }
   #mainNav .navbar-brand img {
@@ -10817,5 +10819,20 @@ img.bg-img {
   }
   #mainNav .navbar-nav .nav-item:last-child {
     margin-right: 0;
+  }
+  .social-icons .btn {
+    height: 3rem;
+    width: 3rem;
+  }
+  img.bg-img {
+  }
+  .masthead .masthead-content {
+    background: none;
+  }
+  .masthead:before {
+    width: 85%;
+  }
+  img.bg-img {
+    min-height: 0;
   }
 }
