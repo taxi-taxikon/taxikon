@@ -7385,8 +7385,8 @@ fieldset:disabled .btn {
 }
 
 .py-4 {
-  padding-top: 0.5rem !important;
-  padding-bottom: 0.5rem !important;
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
 }
 
 .py-5 {
@@ -10586,9 +10586,6 @@ img.bg-img {
     background: black;
     position: absolute;
   }
-  .mt-3 {
-    margin-top: 0px !important;
-  }
   .li-class {
     font-size: 14px;
   }
@@ -10759,8 +10756,8 @@ img.bg-img {
 }
 
 #mainNav {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   background-color: #000000;
 }
 #mainNav .navbar-toggler {
