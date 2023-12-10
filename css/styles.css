@@ -10798,7 +10798,7 @@ img.bg-img {
 .btn-xl {
   padding: 1.25rem 2.5rem;
   font-size: 1.125rem;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .btn-social {
@@ -10930,6 +10930,15 @@ img.bg-img {
   .mb-4 {
     margin-bottom: 1rem !important;
   }
+  .table-borderless > :not(caption) > * > * {
+    font-size: 14px;
+  }
+  .portfolio-modal .modal-content img {
+    width: 25%;
+  }
+  p {
+    font-size: 14px;
+  }
 }
 
 @media (min-width: 1151px) {
@@ -10956,6 +10965,12 @@ img.bg-img {
   }
 }
 
+@media (min-width: 1680px) {
+  .container {
+    min-width: 1680px;
+  }
+}
+
 @media (min-width: 2560px) {
   .container {
     min-width: 2560px;
@@ -10963,4 +10978,11 @@ img.bg-img {
   #mainNav .navbar-brand img {
     padding-left: 27px;
   }
+  /*.social-icons .btn {
+    height: 5.5rem;
+    width: 5.5rem;
+  }
+  .svg-inline--fa {
+    height: 2em;
+  }*/
 }
