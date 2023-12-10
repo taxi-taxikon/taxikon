@@ -10782,6 +10782,9 @@ img.bg-img {
   .masthead .masthead-content {
     padding-bottom: 2rem;
   }
+  .navbar-nav .nav-item .nav-link {
+    font-size: 20px;
+  }
 }
 .btn-xl {
   padding: 1.25rem 2.5rem;
@@ -10864,8 +10867,6 @@ img.bg-img {
   .social-icons .btn {
     height: 3rem;
     width: 3rem;
-  }
-  img.bg-img {
   }
   .masthead .masthead-content {
     background: none;
