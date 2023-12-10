@@ -10739,7 +10739,7 @@ img.bg-img {
     padding-bottom: 4rem;
   }
   .masthead .masthead-content p {
-    font-size: 11px;
+    font-size: 14px;
   }
   .mb-5 {
     margin-bottom: 0rem !important;
@@ -10768,7 +10768,7 @@ img.bg-img {
     font-size: 18px;
   }
   .masthead .masthead-content {
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
   }
   .navbar-nav .nav-item .nav-link {
     font-size: 20px;
@@ -10846,9 +10846,9 @@ img.bg-img {
     transition: font-size 0.3s ease-in-out;
   }
   #mainNav .navbar-brand img {
-    height: 2rem;
+    height: 1.5rem;
     transition: height 0.3s ease-in-out;
-    padding-left: 0px;
+    padding-left: 12px;
   }
   #mainNav.navbar-shrink {
     padding-top: 1rem;
@@ -10869,8 +10869,8 @@ img.bg-img {
     margin-right: 0;
   }
   .social-icons .btn {
-    height: 3rem;
-    width: 3rem;
+    height: 2.5rem;
+    width: 2.5rem;
   }
   .masthead .masthead-content {
     background: none;
@@ -10905,7 +10905,7 @@ img.bg-img {
     width: 2.5rem;
   }
   .svg-inline--fa {
-    height: 1.2em;
+    height: 1em;
   }
   .masthead:before {
     width: 76%;
@@ -10920,5 +10920,47 @@ img.bg-img {
   }
   .container {
     padding-left: 0px;
+  }
+  .container {
+    min-width: 992px;
+  }
+  h2 {
+    padding-bottom: 4rem;
+  }
+  .mb-4 {
+    margin-bottom: 1rem !important;
+  }
+}
+
+@media (min-width: 1151px) {
+  .masthead:before {
+    width: 76%;
+  }
+  .container {
+    min-width: 1151px;
+  }
+  #mainNav .navbar-brand img {
+    padding-left: 27px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .masthead:before {
+    width: 80%;
+  }
+  .container {
+    min-width: 1440px;
+  }
+  #mainNav .navbar-brand img {
+    padding-left: 27px;
+  }
+}
+
+@media (min-width: 2560px) {
+  .container {
+    min-width: 2560px;
+  }
+  #mainNav .navbar-brand img {
+    padding-left: 27px;
   }
 }
