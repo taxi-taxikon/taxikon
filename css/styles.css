@@ -10964,11 +10964,17 @@ img.bg-img {
   #mainNav .navbar-brand img {
     padding-left: 27px;
   }
+  portfolio-modal .modal-content img {
+    width: 20%;
+  }
 }
 
 @media (min-width: 1680px) {
   .container {
     min-width: 1680px;
+  }
+  portfolio-modal .modal-content img {
+    width: 20%;
   }
 }
 
