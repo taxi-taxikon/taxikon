@@ -10502,9 +10502,6 @@ img.bg-img {
 .masthead .masthead-content .h1 {
   font-size: 2.5rem;
 }
-.masthead .masthead-content p {
-  font-size: 1.2rem;
-}
 .masthead .masthead-content p strong {
   font-weight: 700;
 }
@@ -10542,9 +10539,6 @@ img.bg-img {
   .masthead .masthead-content h1,
   .masthead .masthead-content .h1 {
     font-size: 3.5rem;
-  }
-  .masthead .masthead-content p {
-    font-size: 1.3rem;
   }
 }
 @media (min-width: 1200px) {
@@ -10725,7 +10719,6 @@ img.bg-img {
   }
   #mainNav .navbar-brand img {
     height: 1.2rem;
-    padding-left: 10px;
   }
   .mb-5 {
     margin-bottom: 1rem !important;
@@ -10738,6 +10731,52 @@ img.bg-img {
 @media (min-width: 768px) {
   section {
     padding: 9rem 0;
+  }
+  img.bg-img {
+    top: 76%;
+    left: 50%;
+    width: 100%;
+  }
+  .masthead .masthead-content {
+    font-size: 18px;
+    padding-bottom: 4rem;
+  }
+  .masthead .masthead-content p {
+    font-size: 18px;
+  }
+  .mb-5 {
+    margin-bottom: 0rem !important;
+  }
+  #mainNav .navbar-toggler {
+    font-size: 35px;
+  }
+  .svg-inline--fa {
+    height: 1.5em;
+  }
+  .mt-3 {
+    margin-top: 1rem !important;
+    gap: 30px;
+  }
+  #mainNav .navbar-brand img {
+    height: 2.2rem;
+    padding-left: 25px;
+  }
+  .px-4m {
+    padding-right: 0rem;
+    padding-left: 0rem;
+  }
+  h3,
+  .h3 {
+    font-size: calc(2rem + 0.6vw);
+  }
+  .portfolio-modal .modal-content p.item-intro {
+    font-size: 18px;
+  }
+  .portfolio-modal .modal-content img {
+    width: 30%;
+  }
+  .table-borderless > :not(caption) > * > * {
+    font-size: 18px;
   }
 }
 .btn-xl {
@@ -10789,7 +10828,7 @@ img.bg-img {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     border: none;
-    background-color: transparent;
+    background-color: black;
     transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
@@ -10803,9 +10842,7 @@ img.bg-img {
   #mainNav.navbar-shrink {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    /*background-color: #212529;*/
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    background: #000000;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
