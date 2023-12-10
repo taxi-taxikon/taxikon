@@ -187,7 +187,7 @@ h6,
 
 p {
   margin-top: 0;
-  margin-bottom: 0rem;
+  padding-top: 2rem;
 }
 
 .p-rem {
@@ -7267,7 +7267,7 @@ fieldset:disabled .btn {
 }
 
 .mb-4 {
-  margin-bottom: 1.5rem !important;
+  margin-bottom: 0.5rem !important;
 }
 
 .mb-5 {
@@ -10938,6 +10938,7 @@ img.bg-img {
   }
   p {
     font-size: 14px;
+    padding-top: 0rem;
   }
 }
 
