@@ -10610,6 +10610,7 @@ img.bg-img {
   .masthead .masthead-content h1,
   .masthead .masthead-content .h1 {
     font-size: 2rem;
+    padding-top: 5px;
   }
   .logo-inside {
     width: 100px;
@@ -10777,6 +10778,9 @@ img.bg-img {
   }
   .table-borderless > :not(caption) > * > * {
     font-size: 18px;
+  }
+  .masthead .masthead-content {
+    padding-bottom: 2rem;
   }
 }
 .btn-xl {
