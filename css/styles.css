@@ -687,7 +687,7 @@ progress {
   .container-md,
   .container-sm,
   .container {
-    max-width: 960px;
+    max-width: 992px;
   }
 }
 @media (min-width: 1200px) {
@@ -4729,9 +4729,6 @@ fieldset:disabled .btn {
   }
   .masthead .masthead-content {
     padding-top: 2rem;
-  }
-  .masthead .masthead-content p {
-    font-size: 12px;
   }
   .fa-2x {
     color: #ffffff;
@@ -10478,7 +10475,7 @@ img.bg-img {
   z-index: 2;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .masthead:before {
   content: "";
@@ -10575,7 +10572,7 @@ img.bg-img {
     top: 80%;
     left: 50%;
     width: 100%;
-    height: 90%;
+    min-height: 0;
     background: black;
     position: absolute;
   }
@@ -10742,7 +10739,7 @@ img.bg-img {
     padding-bottom: 4rem;
   }
   .masthead .masthead-content p {
-    font-size: 18px;
+    font-size: 11px;
   }
   .mb-5 {
     margin-bottom: 0rem !important;
@@ -10751,19 +10748,11 @@ img.bg-img {
     font-size: 35px;
   }
   .svg-inline--fa {
-    height: 1.5em;
+    height: 1.2em;
   }
   .mt-3 {
     margin-top: 1rem !important;
     gap: 30px;
-  }
-  #mainNav .navbar-brand img {
-    height: 2.2rem;
-    padding-left: 25px;
-  }
-  .px-4m {
-    padding-right: 0rem;
-    padding-left: 0rem;
   }
   h3,
   .h3 {
@@ -10779,10 +10768,31 @@ img.bg-img {
     font-size: 18px;
   }
   .masthead .masthead-content {
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
   }
   .navbar-nav .nav-item .nav-link {
     font-size: 20px;
+  }
+  h2,
+  .h2 {
+    font-size: calc(1.15rem + 0.9vw);
+  }
+  #mainNav .navbar-brand img {
+    height: 1.5rem;
+    padding-left: 0px;
+  }
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 768px;
+  }
+  .masthead .masthead-content h1,
+  .masthead .masthead-content .h1 {
+    font-size: 2rem;
+  }
+  .social-icons .btn {
+    height: 2.5rem;
+    width: 2.5rem;
   }
 }
 .btn-xl {
@@ -10811,12 +10821,6 @@ img.bg-img {
   font-size: 21px;
   font-weight: 500;
 }
-#mainNav .navbar-brand {
-  color: #ffc800;
-  font-weight: 700;
-  letter-spacing: 0.0625em;
-  text-transform: uppercase;
-}
 #mainNav .navbar-nav .nav-item .nav-link {
   font-size: 14px;
   color: #fff;
@@ -10844,6 +10848,7 @@ img.bg-img {
   #mainNav .navbar-brand img {
     height: 2rem;
     transition: height 0.3s ease-in-out;
+    padding-left: 0px;
   }
   #mainNav.navbar-shrink {
     padding-top: 1rem;
@@ -10875,5 +10880,45 @@ img.bg-img {
   }
   img.bg-img {
     min-height: 0;
+    top: 70%;
+  }
+  .masthead {
+    position: fixed;
+  }
+  .masthead .masthead-content p {
+    font-size: 14px;
+  }
+  .masthead .masthead-content h1,
+  .masthead .masthead-content .h1 {
+    font-size: 2rem;
+    padding-top: 5px;
+  }
+  h2,
+  .h2 {
+    font-size: calc(1.25rem + 0.9vw);
+  }
+  .row {
+    --bs-gutter-x: 0rem;
+  }
+  social-icons .btn {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+  .svg-inline--fa {
+    height: 1.2em;
+  }
+  .masthead:before {
+    width: 76%;
+  }
+  img.bg-img {
+    top: 68%;
+    left: 72%;
+    width: 66%;
+  }
+  img.bg-img {
+    min-width: 0;
+  }
+  .container {
+    padding-left: 0px;
   }
 }
