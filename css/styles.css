@@ -10942,6 +10942,7 @@ img.bg-img {
   }
   #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 16px;
+  }
 }
 
 @media (min-width: 1151px) {
@@ -10987,11 +10988,53 @@ img.bg-img {
   #mainNav .navbar-brand img {
     padding-left: 27px;
   }
-  /*.social-icons .btn {
-    height: 5.5rem;
-    width: 5.5rem;
+  .masthead:before {
+    width: 73%;
+  }
+  #mainNav .navbar-brand img {
+    height: 2.5rem;
+  }
+  .masthead .masthead-content h1,
+  .masthead .masthead-content .h1 {
+    font-size: 3rem;
+  }
+  h2,
+  .h2 {
+    font-size: calc(1.4rem + 0.9vw);
+  }
+  .social-icons .btn {
+    height: 4rem;
+    width: 4rem;
   }
   .svg-inline--fa {
-    height: 2em;
-  }*/
+    height: 1.5em;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link {
+    font-size: 18px;
+  }
+  .masthead .masthead-content {
+    padding-right: 0rem;
+  }
+  .masthead .masthead-content p {
+    font-size: large;
+  }
+  .portfolio-modal .modal-content p.item-intro {
+    font-size: 24px;
+  }
+  h3,
+  .h3 {
+    font-size: calc(2.5rem + 0.6vw);
+  }
+  .portfolio-modal .modal-content img {
+    width: 20%;
+  }
+  .table-borderless > :not(caption) > * > * {
+    font-size: 18px;
+  }
+  .btn-xl {
+    font-size: 1.3rem;
+  }
+  p {
+    font-size: 18px;
+  }
 }
