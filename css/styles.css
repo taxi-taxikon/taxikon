@@ -10846,7 +10846,7 @@ img.bg-img {
     transition: font-size 0.3s ease-in-out;
   }
   #mainNav .navbar-brand img {
-    height: 1.5rem;
+    height: 2rem;
     transition: height 0.3s ease-in-out;
     padding-left: 12px;
   }
@@ -10886,7 +10886,7 @@ img.bg-img {
     position: fixed;
   }
   .masthead .masthead-content p {
-    font-size: 14px;
+    font-size: 16px;
   }
   .masthead .masthead-content h1,
   .masthead .masthead-content .h1 {
@@ -10931,15 +10931,17 @@ img.bg-img {
     margin-bottom: 1rem !important;
   }
   .table-borderless > :not(caption) > * > * {
-    font-size: 14px;
+    font-size: 16px;
   }
   .portfolio-modal .modal-content img {
     width: 25%;
   }
   p {
-    font-size: 14px;
+    font-size: 16px;
     padding-top: 0rem;
   }
+  #mainNav .navbar-nav .nav-item .nav-link {
+    font-size: 16px;
 }
 
 @media (min-width: 1151px) {
