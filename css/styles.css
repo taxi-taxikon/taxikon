@@ -185,6 +185,7 @@ h6,
   font-size: 1rem;
 }
 
+/*
 p {
   margin-top: 0;
   padding-top: 2rem;
@@ -193,7 +194,7 @@ p {
 .p-rem {
   margin-bottom: 1rem;
 }
-
+*/
 abbr[title] {
   -webkit-text-decoration: underline dotted;
   text-decoration: underline dotted;
@@ -4814,9 +4815,11 @@ fieldset:disabled .btn {
     font-style: italic;
     font-size: 14px;
   }
+  /*
   .portfolio-modal .modal-content p {
     margin-bottom: 2rem;
   }
+  */
   .portfolio-modal .modal-content ul.list-inline {
     margin-bottom: 2rem;
   }
