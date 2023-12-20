@@ -10574,9 +10574,9 @@ img.bg-img {
 
 @media (max-device-width: 576px) and (min-device-height: 600px) {
   img.bg-img {
-    top: 80%;
+    top: 79%;
     left: 50%;
-    width: 101%;
+    width: 100%;
     min-height: 0;
     background: black;
     position: absolute;
@@ -11085,6 +11085,9 @@ img.bg-img {
   #mainNav .navbar-brand img {
     padding-left: 27px;
   }
+  .portfolio-modal .modal-content img {
+    width: 15%;
+  }
 }
 
 @media (min-width: 1440px) {
@@ -11234,5 +11237,8 @@ img.bg-img {
   }
   img.bg-img {
     width: 62%;
+  }
+  .portfolio-modal .modal-content img {
+    width: 15%;
   }
 }
