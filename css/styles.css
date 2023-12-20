@@ -10546,8 +10546,10 @@ img.bg-img {
   }
 }
 .social-icons {
-  position: relative;
+  position: fixed;
   z-index: 2;
+  bottom: 0;
+  width: 100%;
 }
 .social-icons .btn {
   display: inline-flex;
